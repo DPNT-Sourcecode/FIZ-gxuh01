@@ -3,10 +3,10 @@ def fizz_buzz(number):
     # raise NotImplementedError()
     n = number
     if (( n % 3 ) == 0 ) and (( n % 5 ) == 0 ):
-        print("fizz buzz")
+        return "fizz buzz"
     elif (( n % 3 ) == 0 ):
-        print("fizz")
+        return "fizz"
     elif (( n % 5 ) == 0 ):
-        print("buzz")
+        return "buzz"
     else:
-        print(n)
+        return n
