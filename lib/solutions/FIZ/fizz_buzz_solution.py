@@ -2,7 +2,8 @@
 def fizz_buzz(number):
     # raise NotImplementedError()
     n = number
-    c_deluxe = ( len(set(str(n))) == 1 ) and ( n > 10 )
+    c_deluxe = ( len(set(str(n))) == 1 ) and ( n > 10 ) and ( n % 2 == 0)
+    c_deluxe_fake = ( len(set(str(n))) == 1 ) and ( n > 10 ) and ( n % 2 != 0)
     c_fizz = (( n % 3 ) == 0 ) or ('3' in str(n))
     c_buzz = (( n % 5 ) == 0 ) or ('5' in str(n))
     if c_fizz and c_buzz and c_deluxe:
@@ -21,3 +22,4 @@ def fizz_buzz(number):
         return "deluxe"
     else:
         return n
+
