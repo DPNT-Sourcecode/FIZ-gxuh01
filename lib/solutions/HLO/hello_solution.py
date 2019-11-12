@@ -5,4 +5,4 @@
 def hello(friend_name):
     # raise NotImplementedError()
     # return friend_name
-    return "Hello, World!"
+    return "Hello, " + friend_name + "!"
