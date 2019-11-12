@@ -5,4 +5,3 @@ def compute(x, y):
     else:
         return None
     # raise NotImplementedError()
-
